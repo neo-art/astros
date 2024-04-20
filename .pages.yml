@@ -3,14 +3,14 @@ logo_url: /logo.svg
 media: "public/images"
 output: "/images"
 
-i18n:
-    structure: "multiple_folders"
-    locales: ["en", "it"]
-    default_locale: "en"
+# i18n:
+#     structure: "multiple_folders"
+#     locales: ["en", "it"]
+#     default_locale: "en"
 
 content:
     - name: "posts"
-      i18n: true
+      # i18n: true
       label: "Blog Posts"
       type: "collection"
       path: "src/content/blog"
@@ -20,41 +20,41 @@ content:
           - name: "title"
             type: "string"
             label: "Post Title"
-            i18n: true
+            # i18n: true
           - label: "Draft"
             name: "draft"
             type: "boolean"
-            i18n: "duplicate"
+            # i18n: "duplicate"
           - label: "Author"
             name: "author"
             type: "string"
-            i18n: "duplicate"
+            # i18n: "duplicate"
           - label: "Tags"
             name: "tags"
             type: "list"
-            i18n: true
+            # i18n: true
           - label: "Image"
             name: "image"
             type: "object"
-            i18n: true
+            # i18n: true
             fields:
-                - { label: Source, name: src, type: image, i18n: "duplicate" }
-                - { label: Alt Text, name: alt, type: string, i18n: true }
+                - { label: Source, name: src, type: image }
+                - { label: Alt Text, name: alt, type: string }
           - label: "Snippet"
             name: "snippet"
             type: "text"
-            i18n: true
+            # i18n: true
           - label: "Publish Date"
             name: "publishDate"
             type: "datetime"
             format: "YYYY-MM-DD HH:mm"
-            i18n: "duplicate"
+            # i18n: "duplicate"
           - label: "Category"
             name: "category"
             type: "select"
             options: ["Tutorials", "News", "Reviews", "Frameworks"]
-            i18n: "duplicate"
+            # i18n: "duplicate"
           - name: "body"
             type: "markdown"
             label: "Post Body"
-            i18n: true
+            # i18n: true
