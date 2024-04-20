@@ -1,5 +1,5 @@
 ---
-title: Unleashing the Power of Tailwind CSS 2
+title: Unleashing the Power of Tailwind CSS 22
 draft: false
 author: Jon Doe
 tags: tailwindcss
