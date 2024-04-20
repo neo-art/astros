@@ -1,7 +1,7 @@
 logo_url: /logo.svg
 
 media: "public/images"
-output: "/images"
+output: "images"
 
 #i18n:
 #    structure: "multiple_folders"
@@ -27,7 +27,7 @@ content:
           - label: "Author"
             name: "author"
             widget: "string"
-            i18n: "duplicate"
+            #i18n: "duplicate"
           - label: "Tags"
             name: "tags"
             widget: "list"
