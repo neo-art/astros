@@ -1,10 +1,8 @@
 ---
-title: Unleashing the Power of Tailwind CSS
+title: Unleashing the Power of Tailwind CSS 2
 draft: false
 author: Jon Doe
-tags:
-  - tailwindcss
-  - webdev
+tags: tailwindcss
 image:
   alt: Tailwind CSS
   src: /images/tailwind.png
