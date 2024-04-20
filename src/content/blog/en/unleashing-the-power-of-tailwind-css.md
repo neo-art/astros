@@ -2,7 +2,7 @@
 title: Unleashing the Power of Tailwind CSS 22
 draft: false
 author: Jon Doe
-tags: tailwindcss
+tags: tailwindcss, css
 image:
   alt: Tailwind CSS
   src: /images/tailwind.png
