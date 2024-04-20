@@ -3,10 +3,10 @@ logo_url: /logo.svg
 media: "public/images"
 #public_folder: "/images"
 
-i18n:
-    structure: "multiple_folders"
-    locales: ["en", "it"]
-    default_locale: "en"
+#i18n:
+#    structure: "multiple_folders"
+#    locales: ["en", "it"]
+#    default_locale: "en"
 
 content:
     - name: "posts"
