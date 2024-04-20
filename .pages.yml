@@ -1,8 +1,6 @@
-local_backend: true
-
 logo_url: /logo.svg
 
-media_folder: "public/images"
+media: "public/images"
 public_folder: "/images"
 
 i18n:
@@ -10,7 +8,7 @@ i18n:
     locales: ["en", "it"]
     default_locale: "en"
 
-collections:
+content:
     - name: "posts"
       i18n: true
       label: "Blog Posts"
