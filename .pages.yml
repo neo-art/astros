@@ -1,60 +1,51 @@
 logo_url: /logo.svg
-
-media: "public/images"
-output: "/images"
-
-# i18n:
-#     structure: "multiple_folders"
-#     locales: ["en", "it"]
-#     default_locale: "en"
-
+media: public/images
+output: /images
 content:
-    - name: "posts"
-      # i18n: true
-      label: "Blog Posts"
-      type: "collection"
-      path: "src/content/blog"
-      create: true
-      delete: true
-      fields:
-          - name: "title"
-            type: "string"
-            label: "Post Title"
-            # i18n: true
-          - label: "Draft"
-            name: "draft"
-            type: "boolean"
-            # i18n: "duplicate"
-          - label: "Author"
-            name: "author"
-            type: "string"
-            # i18n: "duplicate"
-          - label: "Tags"
-            name: "tags"
-            type: "list"
-            # i18n: true
-          - label: "Image"
-            name: "image"
-            type: "object"
-            # i18n: true
-            fields:
-                - { label: Source, name: src, type: image }
-                - { label: Alt Text, name: alt, type: string }
-          - label: "Snippet"
-            name: "snippet"
-            type: "text"
-            # i18n: true
-          - label: "Publish Date"
-            name: "publishDate"
-            type: "datetime"
-            format: "YYYY-MM-DD HH:mm"
-            # i18n: "duplicate"
-          - label: "Category"
-            name: "category"
-            type: "select"
-            options: ["Tutorials", "News", "Reviews", "Frameworks"]
-            # i18n: "duplicate"
-          - name: "body"
-            type: "markdown"
-            label: "Post Body"
-            # i18n: true
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: src/content/blog
+    create: true
+    delete: true
+    fields:
+      - name: title
+        type: string
+        label: Post Title
+      - label: Draft
+        name: draft
+        type: boolean
+      - label: Author
+        name: author
+        type: string
+      - label: Tags
+        name: tags
+        type: list
+      - label: Image
+        name: image
+        type: object
+        fields:
+          - label: Source
+            name: src
+            type: image
+          - label: Alt Text
+            name: alt
+            type: string
+      - label: Snippet
+        name: snippet
+        type: text
+      - label: Publish Date
+        name: publishDate
+        type: datetime
+        format: 'YYYY-MM-DD HH:mm'
+      - label: Category
+        name: category
+        type: select
+        options:
+          - Tutorials
+          - News
+          - Reviews
+          - Frameworks
+      - name: body
+        type: markdown
+        label: Post Body
