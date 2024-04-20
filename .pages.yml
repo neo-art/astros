@@ -12,6 +12,7 @@ content:
     - name: "posts"
       i18n: true
       label: "Blog Posts"
+      type: "collection"
       path: "src/content/blog"
       create: true
       delete: true
