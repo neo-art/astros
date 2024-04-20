@@ -12,7 +12,7 @@ content:
     - name: "posts"
       i18n: true
       label: "Blog Posts"
-      folder: "src/content/blog"
+      path: "src/content/blog"
       create: true
       delete: true
       fields:
