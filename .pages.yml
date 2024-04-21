@@ -64,6 +64,6 @@ content:
           - Frameworks
         i18n: duplicate
       - name: body
-        type: markdown
+        type: rich-text
         label: Post Body
         i18n: true
