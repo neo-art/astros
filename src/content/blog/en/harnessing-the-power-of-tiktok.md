@@ -9,16 +9,13 @@ tags:
 image:
   src: /images/tik-tok-ads.png
   alt: TikTok Ads
-snippet: In the world of social media marketing, a new player is making a
-  significant impact TikTok. This guide explores the potential of TikTok ads and
-  how to harness them effectively
+snippet: In the world of social media marketing, a new player is making a significant impact TikTok. This guide explores the potential of TikTok ads and how to harness them effectively
 publishDate: 2023-06-29 11:39
-category: Marketing
+category: News
 ---
-
-
 In the world of social media marketing, platforms like Facebook and Instagram have long been the go-to destinations for advertisers. However, there's a new player that's making a significant impact: TikTok. This platform has rapidly gained popularity among younger audiences and is proving to be a potent advertising tool.
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6XzyobQYQVQ/0.jpg)](https://www.youtube.com/watch?v=6XzyobQYQVQ)
 
 ## Why TikTok?
 
